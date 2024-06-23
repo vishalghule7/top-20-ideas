@@ -37,9 +37,9 @@ function IdeaItem({idea, index, refreshData}) {
   return (
     <div className="my-5 p-5 shadow-lg 
         rounded-lg gap-7">
-        <div className=" flex gap-7 ">
+        <div className=" flex gap-7 w-full">
 
-            <h2 className="flex gap-2"><span>{index+1}. </span> {idea?.content}</h2>
+            <h2 className="flex gap-2 w-full"><span>{index+1}. </span> {idea?.content}</h2>
             <div className=" flex flex-col  items-center ">
                
                 <h2 className={`text-lg hover:bg-gray-200 

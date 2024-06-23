@@ -20,15 +20,15 @@ function Hero() {
     ];
 
     const {theme,setTheme} = useContext(ThemeContext);
-    
+
   return (
     <div className=" flex flex-col items-center 
-     gap-5 my-8 text-gray-500">
-        <h2 className="text-3xl  font-bold text-center">
+     gap-5 my-8">
+        <h2 className="text-3xl mt-5  font-bold text-center">
             Top 20 Innovative Ideas for Your Next StartUp 
         </h2>
-        <h2 className="text-center my-3"> 
-            <strong className="text-secondary">Like your favorite ideas.</strong> Write you best Ideas. No account needed!
+        <h2 className="text-center my-5"> 
+            <strong className="text-secondary underline">Like your favorite ideas.</strong> Write you best Ideas. No account needed!
         </h2>
         <div>
         <select 

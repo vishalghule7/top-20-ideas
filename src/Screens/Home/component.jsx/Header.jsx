@@ -6,7 +6,7 @@ function Header() {
   const navigation=useNavigate();
   return (
     <div className=" flex flex-row justify-between items-center
-     shadow-lg p-4 rounded-lg text-gray-600">
+     shadow-lg p-4 rounded-lg ">
         <button onClick={()=> navigation('/new')} className="btn btn-primary btn-sm md:btn-md" >+ Express Your Idea</button>
         <h2 className="font-bold text-sm md:text-2xl" >Top 20 Ideas</h2>
 

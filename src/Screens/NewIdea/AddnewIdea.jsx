@@ -83,7 +83,7 @@ function AddnewIdea() {
             <input
              value={username}
              onChange={(event)=>setUsername(event.target.value)}
-             type="text" placeholder="@username" 
+             type="text" placeholder="username" 
             className="input input-bordered w-full border-primary " />
         </div> }
         <div className="flex flex-col mt-7 ">
