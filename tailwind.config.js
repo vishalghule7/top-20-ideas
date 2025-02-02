@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
+import daisyui from "daisyui";
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
   daisyui: {
     themes: [
+      "retro",
       "light",
       "dark",
       "cupcake",
@@ -16,7 +16,7 @@ export default {
       "emerald",
       "corporate",
       "synthwave",
-      "retro",
+
       "cyberpunk",
       "valentine",
       "halloween",
@@ -43,6 +43,5 @@ export default {
       "sunset",
     ],
   },
-  plugins: [require("daisyui") ],
-}
-
+  plugins: [daisyui],
+};
