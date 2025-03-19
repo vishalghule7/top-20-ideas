@@ -86,7 +86,7 @@ function AddnewIdea() {
              type="text" placeholder="username" 
             className="input input-bordered w-full border-primary " />
         </div> }
-        <div className="flex flex-col mt-7 ">
+        <div className="flex flex-col mt-8 ">
             <button className="btn  btn-primary mt-7"
             disabled={!(idea&&username)}
             onClick={()=> onSaveHandler()}
